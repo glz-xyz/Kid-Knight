@@ -1,0 +1,160 @@
+fileFormatVersion: 2
+guid: 48560954e4fc4eb498375d24b881e8e1
+timeCreated: 1524185606
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: bird_A
+    100002: bird_B
+    100004: butterfly_A
+    100006: butterfly_B
+    100008: cracks_A
+    100010: cracks_B
+    100012: cracks_C
+    100014: cracks_D
+    100016: //RootNode
+    100018: ivy_A
+    100020: ivy_B
+    100022: scotch_A
+    100024: scotch_B
+    100026: spiderWeb_A
+    100028: spiderWeb_B
+    400000: bird_A
+    400002: bird_B
+    400004: butterfly_A
+    400006: butterfly_B
+    400008: cracks_A
+    400010: cracks_B
+    400012: cracks_C
+    400014: cracks_D
+    400016: //RootNode
+    400018: ivy_A
+    400020: ivy_B
+    400022: scotch_A
+    400024: scotch_B
+    400026: spiderWeb_A
+    400028: spiderWeb_B
+    2100000: lambert1
+    2300000: bird_A
+    2300002: bird_B
+    2300004: butterfly_A
+    2300006: butterfly_B
+    2300008: cracks_A
+    2300010: cracks_B
+    2300012: cracks_C
+    2300014: cracks_D
+    2300016: ivy_A
+    2300018: ivy_B
+    2300020: scotch_A
+    2300022: scotch_B
+    2300024: spiderWeb_A
+    2300026: spiderWeb_B
+    3300000: bird_A
+    3300002: bird_B
+    3300004: butterfly_A
+    3300006: butterfly_B
+    3300008: cracks_A
+    3300010: cracks_B
+    3300012: cracks_C
+    3300014: cracks_D
+    3300016: ivy_A
+    3300018: ivy_B
+    3300020: scotch_A
+    3300022: scotch_B
+    3300024: spiderWeb_A
+    3300026: spiderWeb_B
+    4300000: spiderWeb_A
+    4300002: spiderWeb_B
+    4300004: cracks_C
+    4300006: cracks_B
+    4300008: cracks_A
+    4300010: cracks_D
+    4300012: scotch_A
+    4300014: scotch_B
+    4300016: ivy_B
+    4300018: ivy_A
+    4300020: bird_A
+    4300022: bird_B
+    4300024: butterfly_A
+    4300026: butterfly_B
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

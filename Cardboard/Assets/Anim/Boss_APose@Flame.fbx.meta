@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: 81e5a303c21b96c4d98ca2d64b372468
+timeCreated: 1524220126
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Boite_GantBoxe_grp
+    100002: //RootNode
+    100004: Couvercle_End_jnt
+    100006: Couvercle_jnt
+    100008: ctrl_root
+    100010: Gant_End_jnt
+    100012: grp_controls
+    100014: grp_hidden_rig
+    100016: grpCtrl_root
+    100018: jnt_chin
+    100020: jnt_elbow_left
+    100022: jnt_elbow_right
+    100024: jnt_eyebrows_left
+    100026: jnt_eyebrows_right
+    100028: jnt_eyes_left
+    100030: jnt_eyes_right
+    100032: jnt_fingers_left
+    100034: jnt_fingers_right
+    100036: jnt_fingersEnd_left
+    100038: jnt_fingersEnd_right
+    100040: jnt_hanche_left
+    100042: jnt_hanche_right
+    100044: jnt_head
+    100046: jnt_heel_left
+    100048: jnt_heel_right
+    100050: jnt_knee_left
+    100052: jnt_knee_right
+    100054: jnt_neck
+    100056: jnt_neckSpine1
+    100058: jnt_neckSpine2
+    100060: jnt_neckSpine3
+    100062: jnt_neckSpine4
+    100064: jnt_nose1
+    100066: jnt_nose2
+    100068: jnt_root
+    100070: jnt_shoulder_left
+    100072: jnt_shoulder_right
+    100074: jnt_spine1
+    100076: jnt_spine2
+    100078: jnt_tail1
+    100080: jnt_tail2
+    100082: jnt_tail3
+    100084: jnt_tail4
+    100086: jnt_thumb_left
+    100088: jnt_thumb_right
+    100090: jnt_toe_left
+    100092: jnt_toe_right
+    100094: jnt_toeEnd_left
+    100096: jnt_toeEnd_right
+    100098: jnt_wrist_left
+    100100: jnt_wrist_right
+    100102: Ressort_End_jnt
+    100104: Ressort_jnt
+    100106: Root_Boite_ctrl
+    100108: Root_Boite_ctrl_grp
+    100110: Root_Boite_jnt
+    400000: Boite_GantBoxe_grp
+    400002: //RootNode
+    400004: Couvercle_End_jnt
+    400006: Couvercle_jnt
+    400008: ctrl_root
+    400010: Gant_End_jnt
+    400012: grp_controls
+    400014: grp_hidden_rig
+    400016: grpCtrl_root
+    400018: jnt_chin
+    400020: jnt_elbow_left
+    400022: jnt_elbow_right
+    400024: jnt_eyebrows_left
+    400026: jnt_eyebrows_right
+    400028: jnt_eyes_left
+    400030: jnt_eyes_right
+    400032: jnt_fingers_left
+    400034: jnt_fingers_right
+    400036: jnt_fingersEnd_left
+    400038: jnt_fingersEnd_right
+    400040: jnt_hanche_left
+    400042: jnt_hanche_right
+    400044: jnt_head
+    400046: jnt_heel_left
+    400048: jnt_heel_right
+    400050: jnt_knee_left
+    400052: jnt_knee_right
+    400054: jnt_neck
+    400056: jnt_neckSpine1
+    400058: jnt_neckSpine2
+    400060: jnt_neckSpine3
+    400062: jnt_neckSpine4
+    400064: jnt_nose1
+    400066: jnt_nose2
+    400068: jnt_root
+    400070: jnt_shoulder_left
+    400072: jnt_shoulder_right
+    400074: jnt_spine1
+    400076: jnt_spine2
+    400078: jnt_tail1
+    400080: jnt_tail2
+    400082: jnt_tail3
+    400084: jnt_tail4
+    400086: jnt_thumb_left
+    400088: jnt_thumb_right
+    400090: jnt_toe_left
+    400092: jnt_toe_right
+    400094: jnt_toeEnd_left
+    400096: jnt_toeEnd_right
+    400098: jnt_wrist_left
+    400100: jnt_wrist_right
+    400102: Ressort_End_jnt
+    400104: Ressort_jnt
+    400106: Root_Boite_ctrl
+    400108: Root_Boite_ctrl_grp
+    400110: Root_Boite_jnt
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

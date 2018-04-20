@@ -1,0 +1,240 @@
+fileFormatVersion: 2
+guid: 3977d21c18240de44aa331457b839b17
+timeCreated: 1524228246
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: boite
+    100002: Boite_Gant
+    100004: Boite_gant_de_boxe
+    100006: Boite_GantBoxe_grp
+    100008: //RootNode
+    100010: Boss_body_low
+    100012: Boss_eyebrows_low
+    100014: Boss_eyes_low
+    100016: Boss_head_low
+    100018: Boss_horn_low
+    100020: Boss_jaw_low
+    100022: Couvercle_End_jnt
+    100024: Couvercle_jnt
+    100026: Gant_End_jnt
+    100028: gantboxe
+    100030: grp_geo
+    100032: grp_hidden_rig
+    100034: jnt_chin
+    100036: jnt_elbow_left
+    100038: jnt_elbow_right
+    100040: jnt_eyebrows_left
+    100042: jnt_eyebrows_right
+    100044: jnt_eyes_left
+    100046: jnt_eyes_right
+    100048: jnt_fingers_left
+    100050: jnt_fingers_right
+    100052: jnt_fingersEnd_left
+    100054: jnt_fingersEnd_right
+    100056: jnt_hanche_left
+    100058: jnt_hanche_right
+    100060: jnt_head
+    100062: jnt_heel_left
+    100064: jnt_heel_right
+    100066: jnt_knee_left
+    100068: jnt_knee_right
+    100070: jnt_neck
+    100072: jnt_neckSpine1
+    100074: jnt_neckSpine2
+    100076: jnt_neckSpine3
+    100078: jnt_neckSpine4
+    100080: jnt_nose1
+    100082: jnt_nose2
+    100084: jnt_root
+    100086: jnt_shoulder_left
+    100088: jnt_shoulder_right
+    100090: jnt_spine1
+    100092: jnt_spine2
+    100094: jnt_tail1
+    100096: jnt_tail2
+    100098: jnt_tail3
+    100100: jnt_tail4
+    100102: jnt_thumb_left
+    100104: jnt_thumb_right
+    100106: jnt_toe_left
+    100108: jnt_toe_right
+    100110: jnt_toeEnd_left
+    100112: jnt_toeEnd_right
+    100114: jnt_wrist_left
+    100116: jnt_wrist_right
+    100118: low_poly_Boss
+    100120: porte
+    100122: ressort
+    100124: Ressort_End_jnt
+    100126: Ressort_jnt
+    100128: Root_Boite_jnt
+    400000: boite
+    400002: Boite_Gant
+    400004: Boite_gant_de_boxe
+    400006: Boite_GantBoxe_grp
+    400008: //RootNode
+    400010: Boss_body_low
+    400012: Boss_eyebrows_low
+    400014: Boss_eyes_low
+    400016: Boss_head_low
+    400018: Boss_horn_low
+    400020: Boss_jaw_low
+    400022: Couvercle_End_jnt
+    400024: Couvercle_jnt
+    400026: Gant_End_jnt
+    400028: gantboxe
+    400030: grp_geo
+    400032: grp_hidden_rig
+    400034: jnt_chin
+    400036: jnt_elbow_left
+    400038: jnt_elbow_right
+    400040: jnt_eyebrows_left
+    400042: jnt_eyebrows_right
+    400044: jnt_eyes_left
+    400046: jnt_eyes_right
+    400048: jnt_fingers_left
+    400050: jnt_fingers_right
+    400052: jnt_fingersEnd_left
+    400054: jnt_fingersEnd_right
+    400056: jnt_hanche_left
+    400058: jnt_hanche_right
+    400060: jnt_head
+    400062: jnt_heel_left
+    400064: jnt_heel_right
+    400066: jnt_knee_left
+    400068: jnt_knee_right
+    400070: jnt_neck
+    400072: jnt_neckSpine1
+    400074: jnt_neckSpine2
+    400076: jnt_neckSpine3
+    400078: jnt_neckSpine4
+    400080: jnt_nose1
+    400082: jnt_nose2
+    400084: jnt_root
+    400086: jnt_shoulder_left
+    400088: jnt_shoulder_right
+    400090: jnt_spine1
+    400092: jnt_spine2
+    400094: jnt_tail1
+    400096: jnt_tail2
+    400098: jnt_tail3
+    400100: jnt_tail4
+    400102: jnt_thumb_left
+    400104: jnt_thumb_right
+    400106: jnt_toe_left
+    400108: jnt_toe_right
+    400110: jnt_toeEnd_left
+    400112: jnt_toeEnd_right
+    400114: jnt_wrist_left
+    400116: jnt_wrist_right
+    400118: low_poly_Boss
+    400120: porte
+    400122: ressort
+    400124: Ressort_End_jnt
+    400126: Ressort_jnt
+    400128: Root_Boite_jnt
+    2100000: lambert4
+    2100002: lambert2
+    4300000: Boss_horn_low
+    4300002: Boss_eyebrows_low
+    4300004: Boss_eyes_low
+    4300006: Boss_head_low
+    4300008: Boss_jaw_low
+    4300010: Boss_body_low
+    4300012: boite
+    4300014: ressort
+    4300016: porte
+    4300018: gantboxe
+    9500000: //RootNode
+    13700000: boite
+    13700002: Boss_body_low
+    13700004: Boss_eyebrows_low
+    13700006: Boss_eyes_low
+    13700008: Boss_head_low
+    13700010: Boss_horn_low
+    13700012: Boss_jaw_low
+    13700014: gantboxe
+    13700016: porte
+    13700018: ressort
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

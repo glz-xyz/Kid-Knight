@@ -128,7 +128,7 @@ public class PlayerController : MonoBehaviour
 				}
 			break;
 			case PlayerState.CLIMBING:
-				transform.eulerAngles = new Vector3(firstRot.x, firstRot.y, firstRot.z);
+                transform.eulerAngles = new Vector3(firstRot.x, firstRot.y, firstRot.z);
 				animator.SetBool("CLIMBING", true);
 				rigidBody.useGravity = false;
 				movement = frameAxes * climbSpeed;

@@ -26,7 +26,7 @@ public class BossCam : MonoBehaviour
 
 	private IEnumerator GoToPos()
 	{
-		for (int i = 0; i <60; i++)
+		for (int i = 0; i <600; i++)
 		{
 			cam.transform.position = Vector3.Lerp(cam.transform.position, finalPos, speed * Time.deltaTime);
 			yield return new WaitForEndOfFrame();

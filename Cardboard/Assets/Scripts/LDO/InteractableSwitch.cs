@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class InteractableSwitch : MonoBehaviour
@@ -20,7 +19,7 @@ public class InteractableSwitch : MonoBehaviour
 	{
 		if (other.gameObject.tag == "Player")
 		{
-			if (Input.GetButtonUp("Interact"))
+			if (Input.GetButtonDown("Interact"))
 				foreach (var t in targets)
 					t.StartInteract();
 			else

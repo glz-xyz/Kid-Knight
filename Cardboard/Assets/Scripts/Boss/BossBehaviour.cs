@@ -69,7 +69,7 @@ public class BossBehaviour : Interactable {
 		yield return new WaitForSeconds(fireDelay);
 		GameObject f = Instantiate(firePrefab);
 		f.transform.position = fireSpawn.position;
-		f.transform.rotation = fireSpawn.rotation;
+		//f.transform.rotation = fireSpawn.rotation;
 		f.GetComponent<Flame>().dir = flameDir;
 	}
 

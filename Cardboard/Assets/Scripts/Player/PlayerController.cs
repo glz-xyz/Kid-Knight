@@ -5,13 +5,13 @@ public class PlayerController : MonoBehaviour
 {
 	#region Serialized Fields
 	[SerializeField]				private Vector3		feetOffset;
-	[SerializeField]				private float speed;
-	[SerializeField]				private float pullSpeed;
-	[SerializeField]				private float climbSpeed;
-	[SerializeField]				private float jumpSpeed;
-    [SerializeField][Range(0, 1)]	private float airControlIncidence;
-    [SerializeField]				private float lowJumpModifier;
-    [SerializeField]				private float gravityModifier;
+	[SerializeField]				private float		speed;
+	[SerializeField]				private float		pullSpeed;
+	[SerializeField]				private float		climbSpeed;
+	[SerializeField]				private float		jumpSpeed;
+    [SerializeField][Range(0, 1)]	private float		airControlIncidence;
+    [SerializeField]				private float		lowJumpModifier;
+    [SerializeField]				private float		gravityModifier;
 	#endregion
 
 	#region Components
@@ -31,10 +31,11 @@ public class PlayerController : MonoBehaviour
 	}
 	private GameObject	grabbed;
 	private Transform	checkpoint;
-	private PlayerState	state;
 	private Vector3		movement;
+	private Vector3		firstRot;
+	private PlayerState	state;
+	private int			climbables;
 	private float		initialVelocity;
-	private Vector3	firstRot;
 	private bool		created = false;
 	#endregion
 
@@ -236,11 +237,15 @@ public class PlayerController : MonoBehaviour
 			if (checkpoint != null)
 				SceneManager.LoadScene(1);
 		}
+		else if(collider.gameObject.CompareTag("Climb"))
+		{
+			climbables++;
+		}
 	}
 
 	private void OnTriggerStay(Collider collider)
 	{
-		if (collider.gameObject.CompareTag("Climb") && Input.GetAxis("Vertical") >= 0.95f)
+		if (climbables >= 1 && Input.GetAxis("Vertical") >= 0.95f)
 		{
 			animator.SetBool("WALKING", false);
 			animator.SetBool("FALLING", false);
@@ -253,8 +258,12 @@ public class PlayerController : MonoBehaviour
 	{
 		if (collider.gameObject.CompareTag("Climb"))
 		{
-			animator.SetBool("CLIMBING", false);
-			state = PlayerState.FALLING;
+			if (--climbables <= 0)
+			{
+				climbables = 0;
+				animator.SetBool("CLIMBING", false);
+				state = PlayerState.FALLING;
+			}
 		}
 	}
 	#endregion
